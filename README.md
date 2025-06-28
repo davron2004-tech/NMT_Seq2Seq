@@ -62,4 +62,4 @@ Each entry in the dataset is a sentence pair with translations between English a
 
 ## 🌌 GUI
 
-![Gradio web app]()
+![Gradio web app](assets/gui.png)
