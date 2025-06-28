@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
+device = 'cpu'
 
 class Attention_Layer(nn.Module):
     def __init__(self):

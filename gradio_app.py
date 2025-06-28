@@ -2,6 +2,8 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 
+import nltk
+nltk.download("punkt_tab")
 from nltk.tokenize import word_tokenize
 
 from custom_utils import encode_texts, decode_ids
