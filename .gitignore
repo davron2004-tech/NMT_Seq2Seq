@@ -1,0 +1,4 @@
+docker_files/
+SlimOrca_Dedup_English_Uzbek_preprocessed/
+*.pth
+*.pdf
