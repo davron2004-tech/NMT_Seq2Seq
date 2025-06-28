@@ -1,4 +1,0 @@
-torch
-nltk
-gradio
-numpy
