@@ -2,4 +2,3 @@ torch
 nltk
 gradio
 numpy
-json
