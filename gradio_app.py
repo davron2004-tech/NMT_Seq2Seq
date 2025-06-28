@@ -77,12 +77,12 @@ def translate_text(source_text, is_en2uz):
     return target_text
 
 
-with gr.Blocks() as demo:
+with gr.Blocks(title = 'Seq2Seq Language Translator') as demo:
     is_en2uz = gr.State(True)
 
     with gr.Row(equal_height=True):
         label1 = gr.Label(value="English", label="Source Language")
-        swap_button = gr.Button("⇄", size="sm", variant="huggingface")
+        swap_button = gr.Button("⇄ Swap", size="sm", variant="huggingface")
         label2 = gr.Label(value="Uzbek", label="Target Language")
 
     with gr.Group():
